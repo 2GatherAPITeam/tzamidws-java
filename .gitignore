@@ -1,3 +1,5 @@
 src/main/java/il/ac/shenkar/translator/
 .idea
 /tzamidws.iml
+target/
+out/
