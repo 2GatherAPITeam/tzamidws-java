@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="314.0" y="678.0">il.ac.shenkar.twogatherapi.controllers.FileController</node>
+    <node x="249.0" y="0.0">il.ac.shenkar.twogatherapi.daos.UserDao</node>
+    <node x="5.0" y="487.0">il.ac.shenkar.twogatherapi.enums.DisabilityType</node>
+    <node x="616.5" y="487.0">il.ac.shenkar.twogatherapi.enums.TaskStatus</node>
+    <node x="559.0" y="0.0">il.ac.shenkar.twogatherapi.daos.TaskDao</node>
+    <node x="563.0" y="633.0">il.ac.shenkar.twogatherapi.models.Task</node>
+    <node x="0.0" y="44.0">il.ac.shenkar.twogatherapi.services.LoginService</node>
+    <node x="0.0" y="633.0">il.ac.shenkar.twogatherapi.models.User</node>
+    <node x="-44.0" y="917.0">il.ac.shenkar.translator.models.TzamidEvent</node>
+    <node x="569.0" y="235.0">il.ac.shenkar.twogatherapi.controllers.TaskController</node>
+    <node x="304.0" y="487.0">il.ac.shenkar.twogatherapi.daos.FileDao</node>
+    <node x="138.0" y="487.0">il.ac.shenkar.twogatherapi.enums.UserType</node>
+    <node x="105.5" y="235.0">il.ac.shenkar.twogatherapi.controllers.UserController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="il.ac.shenkar.twogatherapi.models.User" target="il.ac.shenkar.twogatherapi.enums.UserType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.models.Task" target="il.ac.shenkar.twogatherapi.enums.TaskStatus">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.FileController" target="il.ac.shenkar.twogatherapi.daos.FileDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.models.User" target="il.ac.shenkar.twogatherapi.enums.DisabilityType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.UserController" target="il.ac.shenkar.twogatherapi.daos.UserDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.TaskController" target="il.ac.shenkar.twogatherapi.daos.TaskDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.UserController" target="il.ac.shenkar.twogatherapi.services.LoginService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="412.5" y="429.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

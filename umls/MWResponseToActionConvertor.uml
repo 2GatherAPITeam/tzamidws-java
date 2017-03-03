@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>il.ac.shenkar.twogatherapi.adaptors.MWResponseToActionConvertor</OriginalElement>
+  <nodes>
+    <node x="487.0" y="207.0">il.ac.shenkar.twogatherapi.controllers.FileController</node>
+    <node x="-465.0" y="273.0">il.ac.shenkar.twogatherapi.daos.UserDao</node>
+    <node x="664.0" y="451.0">il.ac.shenkar.twogatherapi.enums.Actions</node>
+    <node x="-465.0" y="42.0">il.ac.shenkar.twogatherapi.services.ActionTranslator</node>
+    <node x="-97.0" y="90.0">il.ac.shenkar.twogatherapi.adaptors.MWResponseToActionConvertor</node>
+    <node x="-96.0" y="-14.0">il.ac.shenkar.twogatherapi.adaptors.TzmaidEventToMWRequestConvertor</node>
+    <node x="408.0" y="561.0">il.ac.shenkar.twogatherapi.models.ActionResponse</node>
+    <node x="741.0" y="95.0">il.ac.shenkar.twogatherapi.enums.DisabilityType</node>
+    <node x="202.0" y="362.0">il.ac.shenkar.twogatherapi.enums.TaskStatus</node>
+    <node x="-463.0" y="489.0">il.ac.shenkar.twogatherapi.daos.TaskDao</node>
+    <node x="409.0" y="363.0">il.ac.shenkar.twogatherapi.models.ActionPoint</node>
+    <node x="147.0" y="520.0">il.ac.shenkar.twogatherapi.models.Task</node>
+    <node x="415.0" y="-14.0">il.ac.shenkar.twogatherapi.models.User</node>
+    <node x="712.0" y="349.0">il.ac.shenkar.twogatherapi.models.TzamidEvent</node>
+    <node x="-135.0" y="500.0">il.ac.shenkar.twogatherapi.controllers.TaskController</node>
+    <node x="204.0" y="198.0">il.ac.shenkar.twogatherapi.daos.FileDao</node>
+    <node x="742.0" y="-25.0">il.ac.shenkar.twogatherapi.enums.UserType</node>
+    <node x="-93.0" y="196.0">il.ac.shenkar.twogatherapi.controllers.InputEventController</node>
+    <node x="-109.0" y="282.0">il.ac.shenkar.twogatherapi.controllers.UserController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="il.ac.shenkar.twogatherapi.models.User" target="il.ac.shenkar.twogatherapi.enums.UserType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.models.ActionResponse" target="il.ac.shenkar.twogatherapi.models.ActionPoint">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.models.Task" target="il.ac.shenkar.twogatherapi.enums.TaskStatus">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.FileController" target="il.ac.shenkar.twogatherapi.daos.FileDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.models.User" target="il.ac.shenkar.twogatherapi.enums.DisabilityType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.services.ActionTranslator" target="il.ac.shenkar.twogatherapi.adaptors.MWResponseToActionConvertor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.UserController" target="il.ac.shenkar.twogatherapi.daos.UserDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.InputEventController" target="il.ac.shenkar.twogatherapi.services.ActionTranslator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.controllers.TaskController" target="il.ac.shenkar.twogatherapi.daos.TaskDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.twogatherapi.services.ActionTranslator" target="il.ac.shenkar.twogatherapi.adaptors.TzmaidEventToMWRequestConvertor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="182.5" y="672.5" />
+  <SelectedNodes>
+    <node>il.ac.shenkar.twogatherapi.models.TzamidEvent</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
