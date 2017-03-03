@@ -1,4 +1,4 @@
-package il.ac.shenkar.twogatherapi.services;
+package il.ac.shenkar.tzamidws.services;
 
 public class LoginService {
 	private static LoginService loginService = new LoginService();

@@ -1,6 +1,6 @@
-package il.ac.shenkar.twogatherapi.daos;
+package il.ac.shenkar.tzamidws.daos;
 
-import il.ac.shenkar.twogatherapi.models.User;
+import il.ac.shenkar.tzamidws.models.User;
 
 public class UserDao {
 

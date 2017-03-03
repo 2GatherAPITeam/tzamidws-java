@@ -1,8 +1,8 @@
-package il.ac.shenkar.twogatherapi.controllers;
+package il.ac.shenkar.tzamidws.controllers;
 
-import il.ac.shenkar.twogatherapi.daos.UserDao;
-import il.ac.shenkar.twogatherapi.models.User;
-import il.ac.shenkar.twogatherapi.services.LoginService;
+import il.ac.shenkar.tzamidws.daos.UserDao;
+import il.ac.shenkar.tzamidws.models.User;
+import il.ac.shenkar.tzamidws.services.LoginService;
 
 public class UserController {
 

@@ -1,7 +1,7 @@
-package il.ac.shenkar.twogatherapi.controllers;
+package il.ac.shenkar.tzamidws.controllers;
 
-import il.ac.shenkar.twogatherapi.daos.TaskDao;
-import il.ac.shenkar.twogatherapi.models.Task;
+import il.ac.shenkar.tzamidws.daos.TaskDao;
+import il.ac.shenkar.tzamidws.models.Task;
 
 public class TaskController {
 

@@ -1,4 +1,4 @@
-package il.ac.shenkar.twogatherapi.daos;
+package il.ac.shenkar.tzamidws.daos;
 
 import javax.xml.ws.Response;
 import java.io.File;

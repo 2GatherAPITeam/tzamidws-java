@@ -1,6 +1,6 @@
-package il.ac.shenkar.twogatherapi.models;
+package il.ac.shenkar.tzamidws.models;
 
-import il.ac.shenkar.twogatherapi.enums.TaskStatus;
+import il.ac.shenkar.tzamidws.enums.TaskStatus;
 
 public class Task {
 

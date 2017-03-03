@@ -1,6 +1,6 @@
-package il.ac.shenkar.twogatherapi.controllers;
+package il.ac.shenkar.tzamidws.controllers;
 
-import il.ac.shenkar.twogatherapi.daos.FileDao;
+import il.ac.shenkar.tzamidws.daos.FileDao;
 
 import javax.xml.ws.Response;
 import java.io.File;
